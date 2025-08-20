@@ -3,7 +3,7 @@
     padding: 0;
 
 }
-form{
+.form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,15 +16,16 @@ form{
     
 }
 
-.main{
+/* .main{
    display: flex;
    justify-content: center;
    align-items:center;
    height:h-screen;
    margin: 40px;
+   width: 80%;
    
    
-}
+} */
 
 input{
     width: 70%;
@@ -35,5 +36,89 @@ input{
     border-radius: 20px;
     color: aliceblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.idCard{
+    background-color: #0ACDFF;
+    width: 80%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    border-radius: 30px;
+    
+
+     
+}
+
+.idImg{
+    width: 80%;
+    height: 150px;
+    /* background-color: firebrick; */
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+     border-radius: 10px;
+     margin: 15px;
+   
+
+
+
+}
+
+.img{
+    width: 100%;
+    height: 150px;
+     border-radius: 10px;
+}
+
+.cardInfo{
+    text-align:left;
+    /* background-color: #FF9FB2; */
+    width: 80%;
+    
+    margin: 10px;
+    gap: 20px;
+    /* padding: 15px;   */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cardBtn{
+    background-color: #DEDEE0;
+    border: none;
+    /* width: 40%; */
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cardBtn:hover{
+    background-color: aliceblue;
+}
+
+.info{
+    /* background-color: red; */
+    width: fit-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    border-bottom: 1px solid  ;
+    font-size:large;
+
+};
+
+h2{
+    font-size: medium;
+    color: #FF9FB2;
+    background-color: #FF9FB2;
+}
+
+.idName ,.idAge ,.idEmail {
+    font-size:large;
 }
 
